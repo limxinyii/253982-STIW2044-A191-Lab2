@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   }
 }
 bool _isChecked = false;
-final TextEditingController _uncontroller = TextEditingController();
+final TextEditingController _emcontroller = TextEditingController();
 final TextEditingController _pscontroller = TextEditingController();
 
 class LoginPage extends StatefulWidget {
@@ -94,7 +94,7 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   void _onPress() {
-    print(_uncontroller.text);
+    print(_emcontroller.text);
     print(_pscontroller.text);
   }
 }
